@@ -1,27 +1,5 @@
-Un composant, c'est juste une fonction :
+### Installation global de GATSBY
 
-```jsx
-function MonComposant() {
-  return (
-    <div>
-      <b>composant</b>
-    </div>
-  );
-}
-```
-
-```jsx
-const MonComposant2 = () => {
-  return (
-    <div>
-      <pre>composant</pre>
-    </div>
-  );
-};
-```
-
-```jsx
-const MonComposant3 = () => {
-  return "Un composant hyper simple";
-};
+```shell
+npm install -g gatsby-cli
 ```
